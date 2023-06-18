@@ -54,9 +54,9 @@
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color:var(--lightp);
+    /* color:var(--lightp); */
     margin-bottom:0;
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
     letter-spacing:2px;
     word-spacing:3px;
   }

@@ -12,8 +12,7 @@ import img7 from "../../images/Aboutmenewparallax/DogP.png"
 import img8 from "../../images/Aboutmenewparallax/AkaP.png"
 import img9 from "../../images/Aboutmenewparallax/MusicP.png"
 
-
-import AboutmeSVG from '../SVGanimations/aboutmeSvg'
+// import AboutmeSVG from '../SVGanimations/aboutmeSvg'
 import AboutmeCube from '../CubeAnimations/AboutmeCube'
 
 class AboutMe extends React.Component {
@@ -39,8 +38,9 @@ class AboutMe extends React.Component {
         <div className='aboutmeback' >
              
         <div className="home-container">
-            <div className='mt-14 flex justify-center text-center p-3'>
-                <AboutmeSVG />
+            <div className='mt-14 flex justify-center text-center p-3' style={{ color: 'white'}}>
+				<h2>ABOUT ME</h2>
+                {/* <AboutmeSVG /> */}
             </div>
             <div className='container-p' onMouseMove={this.mouse_move} >
                 {/* start coding here */}
@@ -68,10 +68,7 @@ class AboutMe extends React.Component {
         </div>
         <div className='abt-container  p-5'>
             <p className='text-center text-2xl text-black'>
-                    I am 19 year old, <span className='text-violet-200'>CSE-AI</span> Student studing in <span className='text-purple-200 hover:scale-x-150'>Jain University,Bangalore</span>.I <br></br>
-                    really enjoying solving problems as well as making things pretty and easier 
-                    to use.I can't stop learning. <br></br>
-            <span className='text-violet-400'> " Now or Never " </span>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Diam volutpat commodo sed egestas egestas fringilla. Ultrices sagittis orci a scelerisque purus semper eget. Tincidunt tortor aliquam nulla facilisi. Est placerat in egestas erat imperdiet sed. Eget duis at tellus at urna condimentum mattis. Suspendisse sed nisi lacus sed. Nulla facilisi morbi tempus iaculis urna id. Vel eros donec ac odio. Vitae ultricies leo integer malesuada. Purus sit amet volutpat consequat mauris. Ut faucibus pulvinar elementum integer enim neque. Lorem dolor sed viverra ipsum. Eget velit aliquet sagittis id consectetur purus ut. Dignissim convallis aenean et tortor at. Sit amet dictum sit amet justo. Non odio euismod lacinia at quis risus. Nunc lobortis mattis aliquam faucibus.
             </p>
         </div>
         </div>

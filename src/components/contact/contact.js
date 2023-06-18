@@ -4,9 +4,8 @@ import {GoLocation} from "react-icons/go"
 import {MdAlternateEmail} from "react-icons/md"
 import {RiPhoneLine} from "react-icons/ri"
 import * as Siico from "react-icons/si"
-
 import emailjs from '@emailjs/browser';
-import ContactSVG from '../SVGanimations/contactsvg'
+// import ContactSVG from '../SVGanimations/contactsvg'
 
 export default function Contact() {
 
@@ -90,7 +89,9 @@ export default function Contact() {
     <div className='entirecontact'>
         <div className="contactUs">
             <div className='titleh p-3 mt-2'>
-            <h2 className='flex justify-center text-center'><ContactSVG /></h2>
+            <h2 className='flex justify-center text-center'>
+				{/* <ContactSVG /> */} <h2 style={{color: 'white'}}>GET IN TOUCH</h2>
+				</h2>
             </div>
             <div className='boxc'>
                 <div className='contactc form'>
@@ -100,22 +101,22 @@ export default function Contact() {
                             <div className='row50'>
                                 <div className='inputbox'>
                                     <span>First Name</span>
-                                    <input type="text" placeholder='Naruto' name="firstname" value={first} onChange={e => setfirst(e.target.value)} required/>
+                                    <input type="text" placeholder='Ravenom' name="firstname" value={first} onChange={e => setfirst(e.target.value)} required/>
                                 </div>
                                 <div className='inputbox'>
                                     <span>Last Name</span>
-                                    <input type="text" placeholder='Uzumaki' name="lastname" value={last} onChange={e => setlast(e.target.value)} required/>
+                                    <input type="text" placeholder='Estoque' name="lastname" value={last} onChange={e => setlast(e.target.value)} required/>
                                 </div>
                             </div>
 
                             <div className='row50'>
                                 <div className='inputbox'>
                                     <span>Email</span>
-                                    <input type="text" placeholder='naruto@gmail.com' name="email"  value={email} onChange={e => setemail(e.target.value)} required/>
+                                    <input type="text" placeholder='ferdinand.estoque@yahoo.com' name="email"  value={email} onChange={e => setemail(e.target.value)} required/>
                                 </div>
                                 <div className='inputbox'>
                                     <span>Mobile</span>
-                                    <input type="text" placeholder='+91 7834572734' maxLength={10} name="mobile"  value={mob} onChange={e => setmob(e.target.value)} required />
+                                    <input type="text" placeholder='+63 9958143127' maxLength={10} name="mobile"  value={mob} onChange={e => setmob(e.target.value)} required />
                                 </div>
                             </div>
 
@@ -142,17 +143,17 @@ export default function Contact() {
                     <div className='infobox'>
                         <div>
                             <span><GoLocation /></span>
-                            <p>Bangalore,India</p>
+                            <p>Cavite, Philippines</p>
                         </div>
 
                         <div>
                             <span><MdAlternateEmail /></span>
-                            <a href='mailto:tarunskt5678@gmail.com' className='sm:text-xs'>tarunskt5678@gmail.com</a>
+                            <a href='mailto:ferdinand.estoque@yahoo.com' className='sm:text-xs'>ferdinand.estoque@yahoo.com</a>
                         </div>
 
                         <div>
                             <span><RiPhoneLine /></span>
-                            <a href='#'>+91 8610683202</a>
+                            <a href='#'>+63 9958143127</a>
                         </div>
                     </div>
 

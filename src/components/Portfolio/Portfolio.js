@@ -3,7 +3,7 @@ import React,{useState,useEffect} from 'react'
 import "../Portfolio/Portflio.css"
 import {BiFilterAlt} from "react-icons/bi"
 import projects from '../API\'s/projectApi'
-import PortfolioSVG from '../SVGanimations/portfoliosvg';
+// import PortfolioSVG from '../SVGanimations/portfoliosvg';
 import { Newprojcard } from '../Cards/Newprojcard'
 
 export default function Portfolio() {
@@ -43,7 +43,7 @@ export default function Portfolio() {
     <div className= 'bg-[#64379F] lund'>
         <div>
             <h1 className='flex justify-center text-center mb-10'>
-                <PortfolioSVG />
+                {/* <PortfolioSVG /> */}  <h2 style={{color: 'white'}}>Portflio</h2>
             </h1>
         </div>
         <div>

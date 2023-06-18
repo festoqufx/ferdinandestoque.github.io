@@ -87,7 +87,7 @@ export default function Skills() {
     <div className='mt-14 bg-[#DDACF5] p-3 overflow-hidden'>
       <div>
         <h1 className='flex justify-center text-center mb-10'>
-          <SkillsSVG />
+          <h2 style={{color: 'white'}}>SKILLS</h2>
         </h1>
       </div>
       <div>

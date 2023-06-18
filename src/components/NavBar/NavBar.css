@@ -6,13 +6,13 @@
   
 }
 .navbar-brand,.nav-link{
-  color: #ad5ed1 !important;
+  color: #b1b1b1 !important;
 }
 .nav-link:hover{
-  color: #e5b6fa !important;
+  color: #88818d !important;
 }
 .active{
-  color: #ae07fa !important;
+  color: #ffffff !important;
 }
 .navbar-toggler{
 background-color: var(--medp) !important;

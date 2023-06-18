@@ -2,18 +2,10 @@ import React from 'react'
 import "../SkillBar/skillcirclebar.css"
 import {
     CircularProgressbar,
-    CircularProgressbarWithChildren,
     buildStyles
   } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-
-import AnimatedProgressProvider from './AnimatedProgressbar';
-import ChangingProgressProvider from './ChangingProgreesbar';
-import { easeQuadInOut } from "d3-ease";
-
 export default function SkillCircleBar({percentagelang,lang,pathcolor,textcolor,trailColor}) {
-  
-    const percentage = percentagelang;
 
   return (
     <div>

@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { NavLink } from "react-router-dom";
 import "../NavBar/NavBar.css"
-import img1 from "../../images/LOGO.png"
+import img1 from "../../images/logo.png"
 
 export default function NavBar() {
     const [HamShow, setHamShow] = useState(false);

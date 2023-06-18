@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(19, 137, 176);
+  background-color: rgb(0, 0, 0);
 }
 
 code {
@@ -19,9 +19,9 @@ code {
 }
 
 :root{
-  --lightp:#DDACF5;
-  --medp:#9854CB;
-  --darkp:#64379F;
-  --udarkp:#27104E;
-  --heading:#75E8E7;
+  --lightp:#9286ff;
+  --medp:#1e00ff;
+  --darkp:#2e2e2e;
+  --udarkp:#070012;
+  --heading:#ffffff;
 }
