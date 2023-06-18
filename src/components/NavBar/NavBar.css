@@ -1,0 +1,19 @@
+
+.navbar
+{
+  background: var(--udarkp);
+  z-index: 99;
+  
+}
+.navbar-brand,.nav-link{
+  color: #ad5ed1 !important;
+}
+.nav-link:hover{
+  color: #e5b6fa !important;
+}
+.active{
+  color: #ae07fa !important;
+}
+.navbar-toggler{
+background-color: var(--medp) !important;
+}

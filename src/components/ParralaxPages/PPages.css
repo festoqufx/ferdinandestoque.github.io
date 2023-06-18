@@ -1,0 +1,28 @@
+:root{
+    --primary:rgb(19, 137, 176);
+}
+
+.home{
+    background-color: var(--medp);
+    height: auto !important;
+}
+.skills{
+    background-color: var(--lightp);
+    height: auto;
+}
+.aboutme{
+    background-color: var(--darkp);
+    height: auto;
+}
+.achivements{
+    background-color: var(--darkp);
+
+}
+.portfolio{
+    background-color: brown;
+    height: auto;
+}
+.contact{
+    background-color: var(--medp);
+    height: auto;
+}
