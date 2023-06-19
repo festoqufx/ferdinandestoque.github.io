@@ -42,7 +42,7 @@
     
 }
 .home-col2 .home-img{
-    width:70%;
+    /* width:70%; */
     height: 500px;
     transform: translateX(120px);
 }
