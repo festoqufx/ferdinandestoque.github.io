@@ -1,15 +1,11 @@
 import React,{useState} from 'react'
 import { NavLink } from "react-router-dom";
 import "../NavBar/NavBar.css";
-import img1 from "../../images/logo.png";
-
+import img1 from "../../images/LOGO.png";
 export default function NavBar() {
     const [HamShow, setHamShow] = useState(false);
   return (
     <div>
-
-{/* this is testing */}
-
 <section className="navbar-bg">
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
