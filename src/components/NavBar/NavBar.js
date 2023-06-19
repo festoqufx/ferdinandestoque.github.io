@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { NavLink } from "react-router-dom";
-import "../NavBar/NavBar.css"
-import img1 from "../../images/logo.png"
+import "../NavBar/NavBar.css";
+import img1 from "../../images/logo.png";
 
 export default function NavBar() {
     const [HamShow, setHamShow] = useState(false);
@@ -71,19 +71,7 @@ export default function NavBar() {
                     Skills
                   </NavLink>
                 </li>
-                {/* <li className="nav-item">
-                  <NavLink
-                    to="/achivements"
-                    className="nav-link pe-4"
-                    aria-current="page"
-                    activeclassname="active"
-                    onClick={() => {
-                      setHamShow(!HamShow);
-                    }}
-                  >
-                    Achivements
-                  </NavLink>
-                </li> */}
+        
                 <li className="nav-item">
                   <NavLink
                     to="/portfolio"
